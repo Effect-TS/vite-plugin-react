@@ -1,7 +1,7 @@
 import { createFilter } from '@rollup/pluginutils'
 import * as fs from 'fs'
 import * as nodePath from 'path'
-import * as ts from 'typescript'
+import ts from 'typescript'
 import type * as V from 'vite'
 import reactPlugin, { Options } from '@vitejs/plugin-react'
 
